@@ -24,10 +24,17 @@
 }
 
 .address {
+  padding: 100px;
   background-color: #000;
-  min-height: 200px;
+  min-height: 300px;
+  color: #fff;
+  font-size: 14px;
 }
 
 .footer {
-  margin: 200px;
+  min-height: 200px;
+}
+
+.hilight {
+  font-weight: bold;
 }
