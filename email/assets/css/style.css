@@ -19,7 +19,7 @@ h1 {
 
 .container {
   margin-top: 50px;
-  width: 700px;
+  width: 600px;
 }
 
 .top {
@@ -28,7 +28,7 @@ h1 {
 }
 
 .top img {
-  padding-top: 7%;
+  padding-top: 8%;
   padding-left: 25%;
 }
 
@@ -46,13 +46,12 @@ h1 {
 .social {
   border-top: 2px solid #cecece;
   padding-top: 50px;
-  padding-left: 100px;
+  padding-left: 10%;
   padding-bottom: 50px;
 }
 
 .social-box {
   display: inline-block;
-  margin: 10px;
 }
 
 .address {
@@ -82,9 +81,8 @@ h1 {
 }
 
 .footer-img {
-  width: 150px;
   margin-top: 3%;
-  margin-left: 45%;
+  margin-left: 47%;
 }
 
 .hilight {
@@ -93,6 +91,10 @@ h1 {
 }
 
 .separator {
-  height: 5px;
+  width: 1px;
+  height: 10px;
   border-right: 1px solid #cecece;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: inline-block;
 }
