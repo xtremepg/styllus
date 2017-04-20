@@ -1,0 +1,14 @@
+BG Externo = #f1f2f2
+
+--
+
+CABEÇALHO
+
+BG do Logo = #1d1d21
+
+--
+
+RODAPÉ
+
+BG = #1d1d21
+Texto em Destaque = #ceae76
