@@ -1,40 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans');
+
+body {
+  font-family: 'Merriweather Sans', sans-serif;
+  background-color: #f1f2f2;
+}
+
+h1 {
+  font-family: 'Merriweather', serif;
+  font-weight: bold;
+}
+
+.body-email {
+  background-color: #fff;
+  padding: 50px;
+  padding-bottom: 0px;
+}
+
+.container {
+  margin-top: 50px;
+  width: 700px;
+}
+
 .top {
   height: 200px;
-  background-color: #000;
+  background-color: #1d1d21;
+}
+
+.top img {
+  padding-top: 7%;
+  padding-left: 25%;
 }
 
 .message {
   min-height: 400px;
-  padding-top: 50px;
   font-size: 14px;
+  color: #606063;
+}
+
+.signature {
+  margin-top: 100px;
+  margin-bottom: 50px;
 }
 
 .social {
-  min-height: 200px;
   border-top: 2px solid #cecece;
   padding-top: 50px;
+  padding-left: 100px;
+  padding-bottom: 50px;
 }
 
 .social-box {
   display: inline-block;
-  background-color: #000;
-  width: 50px;
-  height: 50px;
-  margin: 25px;
+  margin: 10px;
 }
 
 .address {
-  padding: 100px;
-  background-color: #000;
-  min-height: 300px;
+  background-color: #1d1d21;
+  min-height: 200px;
   color: #fff;
-  font-size: 14px;
+  font-size: 12px;
+}
+
+.address-text {
+  height: 200px;
+  padding-top: 8%;
+  padding-left: 5%;
+}
+
+.indice {
+  height: 200px;
+}
+
+.indice img {
+  width: 95px;
+  padding-top: 70%
 }
 
 .footer {
-  min-height: 200px;
+  min-height: 150px;
+}
+
+.footer-img {
+  width: 150px;
+  margin-top: 3%;
+  margin-left: 45%;
 }
 
 .hilight {
+  color: #ceae76;
   font-weight: bold;
+}
+
+.separator {
+  height: 5px;
+  border-right: 1px solid #cecece;
 }
