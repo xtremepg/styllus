@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Styllus | Móveis Planejados</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Main Style -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <!-- Favicon -->
+    <link rel='shortcut icon' type='image/x-icon' href='assets/img/favicon-styllus-moveis-planejados.png' />
+</head>
+
+<body>
+    <!--<div class="loader">
+        <p class="load-value"></p>
+    </div>-->
+    <div id="all-content" class="hidden">
+        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 content-left">
+            <div class="stripe"></div>
+        </div>
+        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 content-center">
+            <p class="cnpj"><strong>CNPJ:</strong> 16.567.860/0001-41</p>
+            <div class="logo">
+                <img src="assets/img/logo-styllus-design-moveis-planejados.png" />
+            </div>
+            <div class="title">
+                <h1>Em Constru&ccedil;&atilde;o</h1>
+            </div>
+            <div class="buttons">
+                <button class="btn-other" data-target="#contactModal" data-toggle="modal">Contato</button>
+                <button class="btn-other" data-target="#otherModal" data-toggle="modal">Miss&atilde;o, Vis&atilde;o e Valores</button>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-dm-6 col-lg-6 social-menu">
+                <ul>
+                    <li><a href="https://www.facebook.com/styllus.mobi/" target="_blank">facebook</a></li>
+                    <li><a href="https://www.instagram.com/styllus.design/" target="_blank">instagram</a></li>
+                    <li><a href="https://twitter.com/styllusdesign" target="_blank">twitter</a></li>
+                    <li><a href="https://www.linkedin.com/company-beta/16248774/" target="_blank">linkedin</a></li>
+                    <li><a href="https://br.pinterest.com/styllusdesign/" target="_blank">pinterest</a></li>
+                    <li><a href="https://plus.google.com/b/106456611060158374771/106456611060158374771" target="_blank">g+</a></li>
+                </ul>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-dm-6 col-lg-6 lupa-logo">
+                <div class="row">
+                    <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 text">
+                        <p>Design e Desenvolvimento:</p>
+                    </div>
+                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 image">
+                        <a href="http://www.lupa.digital/" target="_blank"><img src="assets/img/logo-lupa-digital-moveis-planejados.png" /></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 content-right">
+            <div class="right-stripe"></div>
+        </div>
+    </div>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- MaskedInput -->
+    <script src="assets/js/jquery.maskedinput.min.js"></script>
+    <!-- Functions -->
+    <script src="assets/js/functions.js"></script>
+</body>
+<!-- Contact Modal -->
+<div id="contactModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close-button" data-dismiss="modal">&times;</button>
+                <h3>Contato</h3>
+            </div>
+            <div class="modal-body">
+                <form name="formContact">
+                    <div class="form-group">
+                        <label>Nome<span>*</span></label>
+                        <input type="text" name="name" id="name" onblur="validacaoNome(formContact.name)" />
+                    </div>
+                    <div class="form-group">
+                        <label>Email<span>*</span></label>
+                        <input type="mail" name="email" id="email" onblur="validacaoEmail(formContact.email)" />
+                    </div>
+                    <div class="form-group">
+                        <label>Telefone</label>
+                        <input type="text" id="tel" />
+                    </div>
+                    <div class="form-group">
+                        <label>Mensagem</label>
+                        <textarea></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button class="btn-send">Enviar</button>
+                    </div>
+
+                    <p class="required-fields">* Preenchimento Obrigat&oacute;rio</p>
+                </form>
+                <div class="divider-contact"></div>
+                <div class="address">
+                    <p><strong><span>Styllus | M&oacute;veis Planejados</span></strong></p>
+                    <span>Rua Alfredo Botelho, 693</span>
+                    <br />
+                    <span>Manejo, Resende, RJ</span>
+                    <br />
+                    <span>Telefone: (24) 3355-3363</span>
+                    <br />
+                    <span>Celular: (24) 9 9905-5006 (WhatsApp)</span>
+                </div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Other Modal -->
+<div id="otherModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close-button" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <h3>Miss&atilde;o</h3>
+                <p>Fazer com que os clientes ame mais ainda seus ambientes, com conforto, facilidade e praticidade de nossos m&oacute;veis planejados.</p>
+                <h3>Vis&atilde;o</h3>
+                <p>Ser a empresa l&iacute;der da regi&atilde;o Sul Fluminense do Rio de Janeiro, de acordo com nossa melhoria contínua, valoriza&ccedil;&atilde;o dos colaboradores, comprometimento e satisfa&ccedil;&atilde;o dos clientes.</p>
+                <h3>Valores</h3>
+                <p>Comprometimento, &Eacute;tica, Respeito, Honestidade, Criatividade, Dedica&ccedil;&atilde;o, Qualidade, Inova&ccedil;&atilde;o, Efici&ecirc;ncia, Simplicidade, Organiza&ccedil;&atilde;o, Responsabilidade</p>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+</html>
